@@ -7,7 +7,9 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "sass": "sass ./src/sass/style.scss ./public/css/style.css",
+    "sass-w": "sass --watch ./src/sass/style.scss ./public/css/style.css"
   },
   "repository": {
     "type": "git",
