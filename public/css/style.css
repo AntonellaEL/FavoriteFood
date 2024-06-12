@@ -17,6 +17,12 @@ header h1 {
   display: block;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
 #ingredientes {
   margin-top: 0;
   margin-left: 3%;
@@ -24,7 +30,6 @@ header h1 {
   min-height: 10vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
-  gap: 1vw;
   background-color: #C4C4C4;
   font-size: 1vw;
   padding: 1vw;
@@ -32,6 +37,29 @@ header h1 {
 #ingredientes input[type=checkbox] {
   display: inline-block;
   margin: 1vw 0;
+}
+
+#time {
+  width: 40%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#time h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2vw;
+}
+#time h4 {
+  display: flex;
+  flex-direction: row;
+  font-size: 2vw;
+}
+#time img {
+  height: 5vh;
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */
