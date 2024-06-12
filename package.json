@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.77.5"
+  },
+  "name": "myfavoriteweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonellaEL/favoriteFood.git"
+  },
+  "author": "Antonella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonellaEL/favoriteFood/issues"
+  },
+  "homepage": "https://github.com/AntonellaEL/favoriteFood#readme",
+  "description": ""
+}
