@@ -10,4 +10,9 @@ header {
       padding: 0;
     }
   }
-  
+  .banner {
+    width: 100%;
+    height: 20vh; // Ajusta la altura del banner en función del alto de la ventana
+    object-fit: cover;
+    display: block;
+  }
