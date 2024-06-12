@@ -86,4 +86,26 @@ header h1 {
   margin-right: 2vw;
 }
 
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+.create {
+  margin: 0;
+}
+
+#social {
+  display: flex;
+  gap: 2vw;
+}
+
+#social img {
+  height: 3vh;
+}
+
 /*# sourceMappingURL=style.css.map */
