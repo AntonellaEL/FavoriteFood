@@ -1,0 +1,16 @@
+#ingredientes {
+    margin-top: 0;
+    margin-left: 3%;
+    width: 40%;
+    min-height: 10vh; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr)); 
+    background-color: #C4C4C4;
+    font-size: 1vw; 
+    padding: 1vw; 
+  
+    input[type="checkbox"] {
+      display: inline-block;
+      margin: 1vw 0; 
+    }
+  }
